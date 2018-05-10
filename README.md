@@ -13,8 +13,21 @@ Features :
 - "won game" page
 - play on smartphone, desktop, tablet --> play anywhere!
 
-## Contributing
+** Installation and how to play
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Git clone this repo
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+```
+git clone https://github.com/PingSharp/fend-project-memory-game
+```
+
+take the browser of your choice and select index file.
+Or simple double click on this index.html file.
+
+** Dependencies
+
+This game depend on the following style sheet / API :
+
+- Google Fonts : https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+- Font Awesome : https://fonts.googleapis.com/css?family=Coda
+
