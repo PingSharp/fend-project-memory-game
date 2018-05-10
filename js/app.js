@@ -160,7 +160,7 @@ function checkCards(cardsList) {
     /* +1 move and update the moves */
     counter += 1;
     moveCounter.innerHTML = counter;
-    /* 3 stars until 16, 2 stars until 24, 1 star until 32 - view update in RatingGame() */
+    /* 3 stars until 18, 2 stars until 29, higher always 1 - view update in RatingGame() */
     if (counter === 19 || counter === 30 ) {
         RatingGame();
     }
