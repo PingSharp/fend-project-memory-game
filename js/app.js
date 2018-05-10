@@ -161,7 +161,7 @@ function checkCards(cardsList) {
     counter += 1;
     moveCounter.innerHTML = counter;
     /* 3 stars until 16, 2 stars until 24, 1 star until 32 - view update in RatingGame() */
-    if (counter === 16 || counter === 24 || counter === 32) {
+    if (counter === 19 || counter === 30 ) {
         RatingGame();
     }
 }
@@ -170,15 +170,12 @@ function checkCards(cardsList) {
  * function reduce the showed stars at some point and decrease the number of the stars.
  */
 function RatingGame() {
-    if (counter === 16) {
+    if (counter === 19) {
         starArray[2].className = "fa fa-star-o";
         starsNumber = 2;
-    } else if (counter === 24) {
+    } else  {
         starArray[1].className = "fa fa-star-o";
         starsNumber = 1;
-    } else {
-        starArray[0].className = "fa fa-star-o";
-        starsNumber = 0;
     }
 }
 /*
