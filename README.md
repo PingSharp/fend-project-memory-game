@@ -1,6 +1,6 @@
 # Memory Game Project
 
-** a simple card game for train your memory designed by Udacity.
+Memory Game Project is a simple card game for train your memory designed by Udacity.
 
 The simple card game bases on the static Udacity/fend-project-memory-game on github.
 
@@ -13,7 +13,7 @@ Features :
 - "won game" page
 - play on smartphone, desktop, tablet --> play anywhere!
 
-** Installation and how to play
+## Installation and how to play
 
 Git clone this repo
 
@@ -24,7 +24,7 @@ git clone https://github.com/PingSharp/fend-project-memory-game
 take the browser of your choice and select index file.
 Or simple double click on this index.html file.
 
-** Dependencies
+## Dependencies
 
 This game depend on the following style sheet / API :
 
